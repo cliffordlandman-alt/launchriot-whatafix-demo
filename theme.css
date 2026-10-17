@@ -60,3 +60,5 @@ body[data-mode=demo] .fab{display:none}
 .foot a.cta{background:var(--a);color:#0b1511;padding:6px 12px;border-radius:999px;font-weight:700;text-decoration:none}
 @media(max-width:720px){body[data-mode=demo] .top{flex-wrap:wrap}.demobar{font-size:12px}}
 #pj-form{grid-template-columns:1fr 160px auto}@media(max-width:720px){#pj-form{grid-template-columns:1fr}}
+.tiles4{grid-template-columns:repeat(4,1fr)}@media(max-width:720px){.tiles4{grid-template-columns:1fr 1fr!important}}
+.bar{height:6px;border-radius:99px;background:#262b33;margin:6px 0 4px;overflow:hidden}.bar i{display:block;height:100%;background:var(--a);border-radius:99px}
