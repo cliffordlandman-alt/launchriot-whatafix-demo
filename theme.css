@@ -59,3 +59,4 @@ body[data-mode=demo] .brand img{background:none;padding:0;border-radius:0;height
 body[data-mode=demo] .fab{display:none}
 .foot a.cta{background:var(--a);color:#0b1511;padding:6px 12px;border-radius:999px;font-weight:700;text-decoration:none}
 @media(max-width:720px){body[data-mode=demo] .top{flex-wrap:wrap}.demobar{font-size:12px}}
+#pj-form{grid-template-columns:1fr 160px auto}@media(max-width:720px){#pj-form{grid-template-columns:1fr}}
