@@ -13,7 +13,7 @@ window.WN_CFG={
 window.WN_CFG={
   mode:'live', demo:false,
   title:'Executive Dashboard',
-  apiBase:'https://api-<slug>.145-241-118-107.sslip.io',   // from the client runbook
+  apiBase:'https://<client API host from the runbook>',   // from the client runbook
   views:['home','tasks','calendar','notes','contacts','followups','documents','projects','activity','search']
 };
 In live mode boot.js reads #s=<session> as the Bearer token and takes the company name and logo from GET /profile. */
